@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Supplier.Desafio.Identidade.DataTransfer\Supplier.Desafio.Identidade.DataTransfer.csproj" />
+      <ProjectReference Include="..\Supplier.Desafio.Identidade.Dominio\Supplier.Desafio.Identidade.Dominio.csproj" />
+    </ItemGroup>
+
+</Project>
