@@ -8,6 +8,8 @@ public class Usuario : Entity
     public virtual string Senha { get; protected set; } = string.Empty;
     public virtual string SenhaSalt { get; protected set; } = string.Empty;
 
+    public Usuario() { }
+
     public Usuario(string email, string senha)
     {
         SetEmail(email);

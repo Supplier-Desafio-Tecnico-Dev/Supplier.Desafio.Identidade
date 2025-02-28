@@ -7,12 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Supplier.Desafio.Identidade.Aplicacao\Supplier.Desafio.Identidade.Aplicacao.csproj" />
       <ProjectReference Include="..\Supplier.Desafio.Identidade.DataTransfer\Supplier.Desafio.Identidade.DataTransfer.csproj" />
+      <ProjectReference Include="..\Supplier.Desafio.Identidade.Infra\Supplier.Desafio.Identidade.Infra.csproj" />
     </ItemGroup>
 
 </Project>

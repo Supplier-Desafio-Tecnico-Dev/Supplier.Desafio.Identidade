@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.2" />
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
+      <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Supplier.Desafio.Identidade.DataTransfer\Supplier.Desafio.Identidade.DataTransfer.csproj" />
+    <ProjectReference Include="..\Supplier.Desafio.Identidade.Dominio\Supplier.Desafio.Identidade.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

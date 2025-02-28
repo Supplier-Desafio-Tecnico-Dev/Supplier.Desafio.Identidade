@@ -2,10 +2,5 @@ namespace Supplier.Desafio.Identidade.Dominio.Core;
 
 public abstract class Entity
 {
-    public Guid Id { get; set; }
-
-    protected Entity()
-    {
-        Id = Guid.NewGuid();
-    }
+    public int Id { get; set; }
 }
