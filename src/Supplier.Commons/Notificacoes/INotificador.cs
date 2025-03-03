@@ -1,4 +1,4 @@
-namespace Supplier.Desafio.Identidade.Aplicacao.Core.Notificacoes;
+﻿namespace Supplier.Commons.Notificacoes;
 
 public interface INotificador
 {

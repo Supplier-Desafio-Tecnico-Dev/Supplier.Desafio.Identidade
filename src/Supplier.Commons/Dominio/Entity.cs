@@ -1,4 +1,4 @@
-namespace Supplier.Desafio.Identidade.Dominio.Core;
+﻿namespace Supplier.Commons.Dominio;
 
 public abstract class Entity
 {

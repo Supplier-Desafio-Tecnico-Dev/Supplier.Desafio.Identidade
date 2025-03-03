@@ -1,4 +1,4 @@
-namespace Supplier.Desafio.Identidade.Aplicacao.Core.Notificacoes;
+﻿namespace Supplier.Commons.Notificacoes;
 
 public class Notificador : INotificador
 {
@@ -23,4 +23,4 @@ public class Notificador : INotificador
     {
         return _notificacoes.Any();
     }
-}
+} 

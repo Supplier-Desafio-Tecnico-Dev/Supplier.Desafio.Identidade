@@ -11,9 +11,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Supplier.Commons\Supplier.Commons.csproj" />
       <ProjectReference Include="..\Supplier.Desafio.Identidade.Aplicacao\Supplier.Desafio.Identidade.Aplicacao.csproj" />
-      <ProjectReference Include="..\Supplier.Desafio.Identidade.DataTransfer\Supplier.Desafio.Identidade.DataTransfer.csproj" />
-      <ProjectReference Include="..\Supplier.Desafio.Identidade.Infra\Supplier.Desafio.Identidade.Infra.csproj" />
+      <ProjectReference Include="..\Supplier.Desafio.Identidade.Ioc\Supplier.Desafio.Identidade.Ioc.csproj" />
     </ItemGroup>
 
 </Project>

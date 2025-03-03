@@ -1,10 +1,10 @@
-using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Requests;
+﻿using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Requests;
 using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Responses;
 
-namespace Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces;
-
-public interface IUsuariosAppServico
+namespace Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces
 {
-    Task<UsuarioAutenticarResponse> AutenticarAsync(UsuarioAutenticarRequest request);
-    Task<UsuarioNovoResponse> InserirAsync(UsuarioNovoRequest request);
+    public interface IUsuariosAppServico
+    {
+        Task<UsuarioNovoResponse> InserirAsync(UsuarioNovoRequest request);
+    }
 }

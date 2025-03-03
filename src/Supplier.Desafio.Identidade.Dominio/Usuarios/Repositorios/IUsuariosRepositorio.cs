@@ -1,10 +1,10 @@
-﻿using Supplier.Desafio.Identidade.Dominio.Usuarios.Entidades;
+﻿using Supplier.Commons.Data;
+using Supplier.Desafio.Identidade.Dominio.Usuarios.Entidades;
 
-namespace Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios
+namespace Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios;
+
+public interface IUsuariosRepositorio : IRepositorioDapper<Usuario>
 {
-    public interface IUsuariosRepositorio
-    {
-        Task<int> InserirAsync(Usuario usuario);
-        Task<Usuario?> ObterPorEmailAsync(string email);
-    }
+    Task<int> InserirAsync(Usuario usuario);
+    Task<Usuario?> ObterPorEmailAsync(string email);
 }

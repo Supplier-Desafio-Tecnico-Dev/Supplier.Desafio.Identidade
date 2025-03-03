@@ -1,7 +1,7 @@
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Supplier.Desafio.Identidade.Dominio.Core;
+namespace Supplier.Commons.Helpers;
 
 public static class CryptoHelper
 {

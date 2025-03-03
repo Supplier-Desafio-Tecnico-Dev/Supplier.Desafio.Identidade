@@ -1,8 +1,8 @@
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.Results;
-using Supplier.Desafio.Identidade.Aplicacao.Core.Notificacoes;
+using Supplier.Commons.Notificacoes;
 
-namespace Supplier.Desafio.Identidade.Aplicacao.Core;
+namespace Supplier.Commons;
 
 public abstract class ServicoBase
 {
@@ -30,7 +30,7 @@ public abstract class ServicoBase
     {
         var validator = validacao.Validate(entidade);
 
-        if(validator.IsValid) return true;
+        if (validator.IsValid) return true;
 
         Notificar(validator);
 
