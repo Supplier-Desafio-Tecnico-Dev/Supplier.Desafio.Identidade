@@ -1,11 +1,10 @@
-using Supplier.Desafio.Identidade.API.Extensions;
-using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces;
+using Supplier.Commons.Data;
+using Supplier.Commons.Middlewares;
+using Supplier.Commons.Notificacoes;
 using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos;
+using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces;
 using Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios;
 using Supplier.Desafio.Identidade.Infra.Usuarios.Repositorios;
-using Supplier.Commons.Data;
-using Supplier.Commons.Notificacoes;
-using Supplier.Commons.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
