@@ -5,6 +5,7 @@ using Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios;
 using Supplier.Desafio.Identidade.Infra.Usuarios.Repositorios;
 using Supplier.Commons.Data;
 using Supplier.Commons.Notificacoes;
+using Supplier.Commons.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,7 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<ExcecaoMiddleware>();
 
 app.UseHttpsRedirection();
 
