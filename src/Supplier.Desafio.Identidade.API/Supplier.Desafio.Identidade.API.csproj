@@ -8,10 +8,10 @@
 
     <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+        <PackageReference Include="DesafioTecnicoDev.Commons" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Supplier.Commons\Supplier.Commons.csproj" />
       <ProjectReference Include="..\Supplier.Desafio.Identidade.Aplicacao\Supplier.Desafio.Identidade.Aplicacao.csproj" />
       <ProjectReference Include="..\Supplier.Desafio.Identidade.Ioc\Supplier.Desafio.Identidade.Ioc.csproj" />
     </ItemGroup>

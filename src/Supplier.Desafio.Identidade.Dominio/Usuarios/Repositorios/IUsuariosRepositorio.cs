@@ -1,4 +1,4 @@
-﻿using Supplier.Commons.Data;
+﻿using Supplier.Desafio.Commons.Data;
 using Supplier.Desafio.Identidade.Dominio.Usuarios.Entidades;
 
 namespace Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios;

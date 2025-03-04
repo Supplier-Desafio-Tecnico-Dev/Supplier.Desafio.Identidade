@@ -1,6 +1,5 @@
 ﻿using Dapper;
-using MySqlX.XDevAPI;
-using Supplier.Commons.Data;
+using Supplier.Desafio.Commons.Data;
 using Supplier.Desafio.Identidade.Dominio.Usuarios.Entidades;
 using Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios;
 
@@ -8,9 +7,7 @@ namespace Supplier.Desafio.Identidade.Infra.Usuarios.Repositorios;
 
 public class UsuariosRepositorio : RepositorioDapper<Usuario>, IUsuariosRepositorio
 {
-    public UsuariosRepositorio(DapperDbContext dapperContext) : base(dapperContext)
-    {
-    }
+    public UsuariosRepositorio(DapperDbContext dapperContext) : base(dapperContext) {}
 
     public async Task<Usuario?> ObterPorEmailAsync(string email)
     {

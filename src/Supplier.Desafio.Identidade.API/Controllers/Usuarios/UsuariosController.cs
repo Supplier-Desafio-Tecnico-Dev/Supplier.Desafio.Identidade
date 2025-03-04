@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Supplier.Commons.Notificacoes;
+using Supplier.Desafio.Commons.Notificacoes;
 using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces;
 using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Requests;
 using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Responses;

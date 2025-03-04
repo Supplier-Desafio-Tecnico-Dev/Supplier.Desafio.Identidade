@@ -1,6 +1,6 @@
-﻿using Supplier.Commons.Dominio;
-using Supplier.Commons.Dominio.Exceptions;
-using Supplier.Commons.Helpers;
+﻿using Supplier.Desafio.Commons.Dominio;
+using Supplier.Desafio.Commons.Dominio.Exceptions;
+using Supplier.Desafio.Commons.Helpers;
 
 namespace Supplier.Desafio.Identidade.Dominio.Usuarios.Entidades;
 

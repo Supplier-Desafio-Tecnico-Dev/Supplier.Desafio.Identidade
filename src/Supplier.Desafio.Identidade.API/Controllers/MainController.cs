@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Supplier.Commons.Notificacoes;
+using Supplier.Desafio.Commons.Notificacoes;
 
 namespace Supplier.Desafio.Identidade.API.Controllers;
 

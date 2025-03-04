@@ -1,6 +1,6 @@
-﻿using Supplier.Commons;
-using Supplier.Commons.Enums;
-using Supplier.Commons.Notificacoes;
+﻿using Supplier.Desafio.Commons;
+using Supplier.Desafio.Commons.Enums;
+using Supplier.Desafio.Commons.Notificacoes;
 using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces;
 using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Requests;
 using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Requests.Validadores;

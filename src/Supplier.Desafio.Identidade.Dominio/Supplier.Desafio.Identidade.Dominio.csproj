@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Supplier.Commons\Supplier.Commons.csproj" />
+        <PackageReference Include="DesafioTecnicoDev.Commons" Version="1.0.0" />
     </ItemGroup>
 
 </Project>

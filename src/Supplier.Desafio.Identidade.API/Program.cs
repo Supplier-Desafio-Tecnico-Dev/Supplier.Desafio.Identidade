@@ -1,6 +1,6 @@
-using Supplier.Commons.Data;
-using Supplier.Commons.Middlewares;
-using Supplier.Commons.Notificacoes;
+using Supplier.Desafio.Commons.Data;
+using Supplier.Desafio.Commons.Middlewares;
+using Supplier.Desafio.Commons.Notificacoes;
 using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos;
 using Supplier.Desafio.Identidade.Aplicacao.Usuarios.Servicos.Interfaces;
 using Supplier.Desafio.Identidade.Dominio.Usuarios.Repositorios;
