@@ -6,8 +6,7 @@ using Supplier.Desafio.Identidade.DataTransfer.Usuarios.Responses;
 
 namespace Supplier.Desafio.Identidade.API.Controllers.Usuarios;
 
-[Route("api/usuario")]
-[ApiController]
+[Route("api/usuarios")]
 public class UsuariosController : MainController
 {
     private readonly IUsuariosAppServico _usuariosAppServico;
@@ -21,6 +20,14 @@ public class UsuariosController : MainController
     public async Task<ActionResult<UsuarioNovoResponse>> InserirAsync(UsuarioNovoRequest request)
     {
         var response = await _usuariosAppServico.InserirAsync(request);
+
+        return CustomResponse(response);
+    }
+
+    [HttpPost("autenticar")]
+    public async Task<ActionResult<UsuarioAutenticarResponse>> AutenticarAsync(UsuarioAutenticarRequest request)
+    {
+        var response = await _usuariosAppServico.AutenticarAsync(request);
 
         return CustomResponse(response);
     }

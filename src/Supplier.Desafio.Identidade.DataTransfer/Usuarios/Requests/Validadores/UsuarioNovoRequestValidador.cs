@@ -2,9 +2,9 @@
 
 namespace Supplier.Desafio.Identidade.DataTransfer.Usuarios.Requests.Validadores
 {
-    public class UsuarioNovoRequestValidator : AbstractValidator<UsuarioNovoRequest>
+    public class UsuarioNovoRequestValidador : AbstractValidator<UsuarioNovoRequest>
     {
-        public UsuarioNovoRequestValidator()
+        public UsuarioNovoRequestValidador()
         {
             RuleFor(c => c.Email)
                 .NotEmpty().WithMessage("Email é obrigatório.")
